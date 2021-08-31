@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background: #000000;
+}
+.RAMB {
+  font-size: 8vw;
+  line-height: 8vw;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 1900;
+  background: url(https://github.com/RAMBpers/website/blob/main/creative-4525354_1920.jpg?raw=true);
+  background-size: 40%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.08);
+  animation: zoomout 8s ease 500ms forwards;
+}
+@keyframes zoomout {
+  from {
+    background-size: 10%;
+  }
+  to {
+    background-size: 100%;
+  }
+}
